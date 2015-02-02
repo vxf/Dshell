@@ -6,7 +6,7 @@ dshell: rc initpy pydoc
 
 rc:
 	# Generating .dshellrc and dshell files 
-	python $(PWD)/bin/generate-dshellrc.py $(PWD)
+	python2.7 $(PWD)/bin/generate-dshellrc.py $(PWD)
 	chmod 755 $(PWD)/dshell
 	chmod 755 $(PWD)/dshell-decode
 	chmod 755 $(PWD)/bin/decode.py
